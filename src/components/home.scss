@@ -1,0 +1,56 @@
+@import "../abstracts/colors.scss";
+
+section.home
+{
+    position: relative;
+    height: 100%;
+    padding-top: 80px;
+    background: $gray;
+
+    img
+    {
+        height: 80vh;
+        width: 100%;
+        opacity: .8;
+    }
+
+    .container
+    {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+
+        h1
+        {
+            font-size: 5rem;
+            text-transform: uppercase;
+            text-align: center;
+            color: $white;
+        }
+
+        p
+        {
+            color: $white;
+            text-align: center;
+            font-size: 1.4rem;
+            margin-bottom: 3rem;
+        }
+
+        button.learn
+        {
+            background: $blue;
+            padding: 1rem 2rem;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            color: $white;
+            font-size: 1rem;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            border-radius: 30px;
+            display: block;
+            margin: 0 auto;
+        }
+    }
+}

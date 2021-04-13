@@ -1,0 +1,63 @@
+@import "../abstracts/colors.scss";
+
+section.team
+{
+    background: $white;
+    height: 100%;
+    padding: 8rem 0;
+    
+    .container
+    {
+        max-width: 65%;
+        margin: 0 auto;
+
+        h1
+        {
+            text-align: center;
+            font-size: 2.5rem;
+            text-transform: uppercase;
+            margin-bottom: .5rem;
+        }
+
+        .line_blue
+        {
+            height: 4px;
+            width: 70px;
+            background: $blue;
+            margin: 0 auto 1rem auto;
+        }
+
+        p.meet
+        {
+            color: $grey;
+            font-size: 1.2rem;
+            text-align: center;
+            margin-bottom: 6rem;
+        }
+
+        .grid_team
+        {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+            img
+            {
+                width: 260px;
+            }
+
+            h3
+            {
+                text-align: center;
+                margin: .5rem 0;
+                font-weight: 600;
+                font-size: 1.3rem;
+            }
+
+            p
+            {
+                text-align: center;
+                color: $grey;
+            }
+        }
+    }
+}

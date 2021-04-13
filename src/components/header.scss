@@ -1,0 +1,127 @@
+@import "../abstracts/colors.scss";
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    background: $white;
+    padding: 0 20%;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+
+    h3
+    {
+        font-size: 1.6rem;
+        text-transform: uppercase;
+        color: $black;
+        letter-spacing: 1px;
+        cursor: pointer;
+    }
+
+    svg
+    {
+        display: none;
+    }
+
+    nav
+    {
+        ul
+        {
+            li
+            {
+                list-style: none;
+                padding-left: 2rem;
+                display: inline-block;
+
+                a
+                {
+                    text-decoration: none;
+                    color: #868686;
+                    text-transform: uppercase;
+                    transition: .3s ease-in-out;
+
+                    &:hover
+                    {
+                        border-bottom: 3px solid $blue;
+                        padding-bottom: .5rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1400px)
+{
+    header
+    {
+        //display: block !important;
+        //height: 375px !important;
+        padding: 0 10%;
+        
+        svg
+        {
+            height: 40px;
+            width: 40px;
+            display: block;
+            cursor: pointer;
+        }
+        nav
+        {
+            display: none;
+            
+            ul
+            {
+                li
+                {
+                    display: block;
+                    padding: 1.5rem 0 0 0;
+
+                    a
+                    {
+                        font-size: 1.1rem;
+                    }
+                }
+            }
+        }
+    }
+
+    header.show
+    {
+        display: grid !important;
+        grid-template-columns: 1fr 1fr;
+        height: 385px !important;
+        padding: 0 10% 2rem 10%;
+        
+        svg
+        {
+            height: 40px;
+            width: 40px;
+            //display: none;
+            cursor: pointer;
+            position: relative;
+            left: 100%;
+        }
+        nav
+        {
+            display: block;
+            
+            ul
+            {
+                li
+                {
+                    display: block;
+                    padding: 1.5rem 0 0 0;
+
+                    a
+                    {
+                        font-size: 1.1rem;
+                    }
+                }
+            }
+        }
+    }
+}

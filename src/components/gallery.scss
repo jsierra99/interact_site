@@ -1,0 +1,95 @@
+@import "../abstracts/colors.scss";
+
+section.gallery
+{
+    background: $white;
+    height: 100%;
+    padding: 7rem;
+
+    .container
+    {
+        max-width: 65%;
+        margin: 0 auto;
+
+        h1
+        {
+            text-align: center;
+            font-size: 2.5rem;
+            text-transform: uppercase;
+            margin-bottom: .5rem;
+        }
+
+        .line_blue
+        {
+            height: 4px;
+            width: 70px;
+            display: block;
+            margin: 0 auto;
+            background: $blue;
+        }
+
+        p
+        {
+            margin-bottom: 5rem;
+            margin-top: 1rem;
+            font-size: 1.2rem;
+            text-align: center;
+            color: $grey;
+        }
+
+        .grid_gallery
+        {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-gap: .15rem;
+
+            img
+            {
+                width: 100%;
+                height: 100%;
+            }
+
+            .gallery_1, .gallery_2, .gallery_3, .gallery_4, .gallery_5, .gallery_6, .gallery_7, .gallery_8, .gallery_9
+            {
+                cursor: pointer;
+                position: relative;
+                height: 270px;
+                transition: .5s ease-out;
+
+                img
+                {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                }
+
+                &:hover
+                {
+                    background: $blue;
+                    
+                    img
+                    {
+                        opacity: .3;
+                    }
+
+                    .more
+                    {
+                        position: absolute;
+                        top: 60%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                    }
+
+                    p.text
+                    {
+                        font-size: 1.5rem;
+                        letter-spacing: 1px;
+                        color: $white;
+                        font-weight: 700;
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+}

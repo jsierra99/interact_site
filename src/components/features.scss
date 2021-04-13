@@ -1,0 +1,66 @@
+@import "../abstracts/colors.scss";
+
+section.features
+{
+    height: 100%;
+    padding: 7rem 0;
+    background: $gray;
+
+    .container
+    {
+        max-width: 65%;
+        margin: 0 auto;
+
+        h1
+        {
+            font-size: 2.5rem;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        .blue_line
+        {
+            height: 5px;
+            width: 65px;
+            background: $blue;
+            max-width: 100%;
+            margin: .5rem auto 5.5rem auto;
+        }
+
+        .grid_features
+        {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-gap: 2rem;
+
+            .features_1
+            {
+                svg
+                {
+                    height: 110px;
+                    width: 110px;
+                    fill: $white;
+                    background: $blue;
+                    padding: 2rem;
+                    border-radius: 50%;
+                    display: block;
+                    margin: 0 auto;
+                }
+
+                h3
+                {
+                    font-size: 1.4rem;
+                    font-weight: 600;
+                    text-align: center;
+                    margin: 2rem 0 .75rem 0;
+                }
+
+                p
+                {
+                    text-align: center;
+                    color: #868686;
+                }
+            }
+        }
+    }
+}
