@@ -4,7 +4,6 @@ section.reviews
 {
     background: $gray;
     padding: 8rem 0;
-    height: 100%;
 
     .container
     {
@@ -32,11 +31,14 @@ section.reviews
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             grid-gap: 4rem;
+            justify-content: center;
+            align-items: center;
 
             .flex_client
             {
                 display: flex;
                 justify-content: center;
+                align-items: center;
 
                 img
                 {

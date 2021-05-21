@@ -4,7 +4,7 @@ section.gallery
 {
     background: $white;
     height: 100%;
-    padding: 7rem;
+    padding: 7rem 0;
 
     .container
     {
@@ -42,6 +42,7 @@ section.gallery
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             grid-gap: .15rem;
+            justify-content: center;
 
             img
             {

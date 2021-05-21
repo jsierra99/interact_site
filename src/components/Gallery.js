@@ -20,55 +20,55 @@ const Gallery = () =>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus leonec.</p>
                 <div class="grid_gallery">
                     <div class="gallery_1">
-                        <img src={Gal1}></img>
+                        <img src={Gal1} alt="imac"></img>
                         <div class="more">
                             <p class="text">First Image</p>
                         </div>
                     </div>
                     <div class="gallery_2">
-                        <img src={Gal2}></img>
+                        <img src={Gal2} alt="samsung laptop"></img>
                         <div class="more">
                             <p class="text">Second Image</p>
                         </div>
                     </div>
                     <div class="gallery_3">
-                        <img src={Gal3}></img>
+                        <img src={Gal3} alt="ipad"></img>
                         <div class="more">
                             <p class="text">Third Image</p>
                         </div>
                     </div>
                     <div class="gallery_4">
-                        <img src={Gal4}></img>
+                        <img src={Gal4} alt="two imacs"></img>
                         <div class="more">
                             <p class="text">Fourth Image</p>
                         </div>
                     </div>
                     <div class="gallery_5">
-                        <img src={Gal5}></img>
+                        <img src={Gal5} alt="imac plus ipad"></img>
                         <div class="more">
                             <p class="text">Fifth Image</p>
                         </div>
                     </div>
                     <div class="gallery_6">
-                        <img src={Gal6}></img>
+                        <img src={Gal6} alt="iphone"></img>
                         <div class="more">
                             <p class="text">Sixth Image</p>
                         </div>
                     </div>
                     <div class="gallery_7">
-                        <img src={Gal7}></img>
+                        <img src={Gal7} alt="mug and glasses"></img>
                         <div class="more">
                             <p class="text">Seventh Image</p>
                         </div>
                     </div>
                     <div class="gallery_8">
-                        <img src={Gal8}></img>
+                        <img src={Gal8} alt="monitor"></img>
                         <div class="more">
                             <p class="text">Eigth Image</p>
                         </div>
                     </div>
                     <div class="gallery_9">
-                        <img src={Gal9}></img>
+                        <img src={Gal9} alt="sticky notes"></img>
                         <div class="more">
                             <p class="text">Nineth Image</p>
                         </div>

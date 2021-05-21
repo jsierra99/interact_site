@@ -6,7 +6,7 @@ const Home = () =>
 {
     return (
         <section class="home">
-            <img src={Image}></img>
+            <img src={Image} alt="background"></img>
             <div class="container">
                 <h1>we are interact</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed 

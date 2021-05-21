@@ -9,7 +9,7 @@ const About = () =>
             <div class="container">
                 <div class="grid_about">
                     <div class="about_1">
-                        <img src={image}></img>
+                        <img src={image} alt="office"></img>
                     </div>
                     <div class="about_2">
                         <h1>About Us</h1>

@@ -54,3 +54,38 @@ section.home
         }
     }
 }
+
+@media only screen and (max-width: 1400px)
+{
+    img
+    {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px)
+{
+    section.home
+    {
+        img
+        {
+            width: 100%;
+        }
+        
+        .container
+        {
+            //left: 58%;
+
+            h1
+            {
+                font-size: 3.5rem;
+            }
+
+            p
+            {
+                font-size: 1.1rem;
+            }
+        }
+    }
+}

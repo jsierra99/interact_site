@@ -16,6 +16,9 @@ section.about
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             grid-gap: 4rem;
+            justify-content: center;
+            align-items: center;
+            justify-items: center;
 
             .about_1
             {
@@ -79,6 +82,17 @@ section.about
                     }
                 }
             }
+        }
+    }
+}
+
+@media only screen and (max-width: 950px)
+{
+    section.about
+    { 
+        .grid_choose
+        {
+            margin-left: 0 !important;
         }
     }
 }

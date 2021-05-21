@@ -33,6 +33,7 @@ section.contact
             display: grid;
             grid-template-columns: 1fr 300px;
             grid-gap: 5rem;
+            justify-content: center;
 
             .contact_1
             {
@@ -190,8 +191,42 @@ section.contact
         display: grid;
         grid-template-columns: 1fr !important;
 
-        .contact_2
+        h3
         {
+            text-align: center;
+        }
+
+        .grid_contact_2
+        {
+           display: grid;
+           grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+           gap: 2rem;
+           justify-content: center;
+           place-items: center;
+
+           .contact_3
+           {
+               display: grid;
+               justify-content: center;
+               justify-items: center;
+           }
+        }
+    }
+}
+
+@media only screen and (max-width: 940px)
+{
+    section.contact
+    {
+        
+        input
+        {
+            width: 100% !important;
+        }
+
+        button
+        {
+            display: block;
             margin: 0 auto;
         }
     }

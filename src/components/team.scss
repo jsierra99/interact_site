@@ -3,7 +3,6 @@
 section.team
 {
     background: $white;
-    height: 100%;
     padding: 8rem 0;
     
     .container
@@ -38,7 +37,9 @@ section.team
         .grid_team
         {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            align-items: center;
+            justify-items: center;
 
             img
             {

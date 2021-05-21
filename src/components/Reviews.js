@@ -16,7 +16,7 @@ const Reviews = () =>
                 <div class="line_blue"></div>
                 <div class="grid_reviews">
                     <div class="flex_client">
-                        <img src={client1}></img>
+                        <img src={client1} alt="client"></img>
                         <div class="quote">
                             <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo 
                             nibh ante facilisis bibendum dolor feugiat at."</p>
@@ -24,7 +24,7 @@ const Reviews = () =>
                         </div>
                     </div>
                     <div class="flex_client">
-                        <img src={client2}></img>
+                        <img src={client2} alt="client"></img>
                         <div class="quote">
                             <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo 
                             nibh ante facilisis bibendum dolor feugiat at."</p>
@@ -32,7 +32,7 @@ const Reviews = () =>
                         </div>
                     </div>
                     <div class="flex_client">
-                        <img src={client3}></img>
+                        <img src={client3} alt="client"></img>
                         <div class="quote">
                             <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo 
                             nibh ante facilisis bibendum dolor feugiat at."</p>
@@ -40,7 +40,7 @@ const Reviews = () =>
                         </div>
                     </div>
                     <div class="flex_client">
-                        <img src={client4}></img>
+                        <img src={client4} alt="client"></img>
                         <div class="quote">
                             <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo 
                             nibh ante facilisis bibendum dolor feugiat at."</p>
@@ -48,7 +48,7 @@ const Reviews = () =>
                         </div>
                     </div>
                     <div class="flex_client">
-                        <img src={client5}></img>
+                        <img src={client5} alt="client"></img>
                         <div class="quote">
                             <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo 
                             nibh ante facilisis bibendum dolor feugiat at."</p>
@@ -56,7 +56,7 @@ const Reviews = () =>
                         </div>
                     </div>
                     <div class="flex_client">
-                        <img src={client6}></img>
+                        <img src={client6} alt="client"></img>
                         <div class="quote">
                             <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo 
                             nibh ante facilisis bibendum dolor feugiat at."</p>
