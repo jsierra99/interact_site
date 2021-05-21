@@ -1,0 +1,56 @@
+section.features {
+  height: 100%;
+  padding: 7rem 0;
+  background: #f6f6f6;
+}
+
+section.features .container {
+  max-width: 65%;
+  margin: 0 auto;
+}
+
+section.features .container h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+section.features .container .blue_line {
+  height: 5px;
+  width: 65px;
+  background: #6186fe;
+  max-width: 100%;
+  margin: .5rem auto 5.5rem auto;
+}
+
+section.features .container .grid_features {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(200px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 2rem;
+}
+
+section.features .container .grid_features .features_1 svg {
+  height: 110px;
+  width: 110px;
+  fill: #fff;
+  background: #6186fe;
+  padding: 2rem;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+section.features .container .grid_features .features_1 h3 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-align: center;
+  margin: 2rem 0 .75rem 0;
+}
+
+section.features .container .grid_features .features_1 p {
+  text-align: center;
+  color: #868686;
+}
+/*# sourceMappingURL=features.css.map */

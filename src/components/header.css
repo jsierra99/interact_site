@@ -48,14 +48,12 @@ header nav ul li a:hover {
 }
 
 @media only screen and (max-width: 1400px) {
-  header {
-    padding: 0 10%;
-  }
   header svg {
     height: 40px;
     width: 40px;
     display: block;
     cursor: pointer;
+    margin-left: auto;
   }
   header nav {
     display: none;
@@ -72,7 +70,7 @@ header nav ul li a:hover {
     display: grid !important;
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
-    height: 385px !important;
+    height: 450px !important;
     padding: 0 10% 2rem 10%;
   }
   header.show svg {
@@ -91,6 +89,17 @@ header nav ul li a:hover {
   }
   header.show nav ul li a {
     font-size: 1.1rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  header h3 {
+    font-size: 1.2rem;
+    margin-right: auto;
+  }
+  header.show svg {
+    left: 0 !important;
+    height: 80px !important;
   }
 }
 /*# sourceMappingURL=header.css.map */

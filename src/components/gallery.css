@@ -1,0 +1,88 @@
+section.gallery {
+  background: #fff;
+  height: 100%;
+  padding: 7rem 0;
+}
+
+section.gallery .container {
+  max-width: 65%;
+  margin: 0 auto;
+}
+
+section.gallery .container h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  margin-bottom: .5rem;
+}
+
+section.gallery .container .line_blue {
+  height: 4px;
+  width: 70px;
+  display: block;
+  margin: 0 auto;
+  background: #6186fe;
+}
+
+section.gallery .container p {
+  margin-bottom: 5rem;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  text-align: center;
+  color: #777777;
+}
+
+section.gallery .container .grid_gallery {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(300px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: .15rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section.gallery .container .grid_gallery img {
+  width: 100%;
+  height: 100%;
+}
+
+section.gallery .container .grid_gallery .gallery_1, section.gallery .container .grid_gallery .gallery_2, section.gallery .container .grid_gallery .gallery_3, section.gallery .container .grid_gallery .gallery_4, section.gallery .container .grid_gallery .gallery_5, section.gallery .container .grid_gallery .gallery_6, section.gallery .container .grid_gallery .gallery_7, section.gallery .container .grid_gallery .gallery_8, section.gallery .container .grid_gallery .gallery_9 {
+  cursor: pointer;
+  position: relative;
+  height: 270px;
+  -webkit-transition: .5s ease-out;
+  transition: .5s ease-out;
+}
+
+section.gallery .container .grid_gallery .gallery_1 img, section.gallery .container .grid_gallery .gallery_2 img, section.gallery .container .grid_gallery .gallery_3 img, section.gallery .container .grid_gallery .gallery_4 img, section.gallery .container .grid_gallery .gallery_5 img, section.gallery .container .grid_gallery .gallery_6 img, section.gallery .container .grid_gallery .gallery_7 img, section.gallery .container .grid_gallery .gallery_8 img, section.gallery .container .grid_gallery .gallery_9 img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+section.gallery .container .grid_gallery .gallery_1:hover, section.gallery .container .grid_gallery .gallery_2:hover, section.gallery .container .grid_gallery .gallery_3:hover, section.gallery .container .grid_gallery .gallery_4:hover, section.gallery .container .grid_gallery .gallery_5:hover, section.gallery .container .grid_gallery .gallery_6:hover, section.gallery .container .grid_gallery .gallery_7:hover, section.gallery .container .grid_gallery .gallery_8:hover, section.gallery .container .grid_gallery .gallery_9:hover {
+  background: #6186fe;
+}
+
+section.gallery .container .grid_gallery .gallery_1:hover img, section.gallery .container .grid_gallery .gallery_2:hover img, section.gallery .container .grid_gallery .gallery_3:hover img, section.gallery .container .grid_gallery .gallery_4:hover img, section.gallery .container .grid_gallery .gallery_5:hover img, section.gallery .container .grid_gallery .gallery_6:hover img, section.gallery .container .grid_gallery .gallery_7:hover img, section.gallery .container .grid_gallery .gallery_8:hover img, section.gallery .container .grid_gallery .gallery_9:hover img {
+  opacity: .3;
+}
+
+section.gallery .container .grid_gallery .gallery_1:hover .more, section.gallery .container .grid_gallery .gallery_2:hover .more, section.gallery .container .grid_gallery .gallery_3:hover .more, section.gallery .container .grid_gallery .gallery_4:hover .more, section.gallery .container .grid_gallery .gallery_5:hover .more, section.gallery .container .grid_gallery .gallery_6:hover .more, section.gallery .container .grid_gallery .gallery_7:hover .more, section.gallery .container .grid_gallery .gallery_8:hover .more, section.gallery .container .grid_gallery .gallery_9:hover .more {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+section.gallery .container .grid_gallery .gallery_1:hover p.text, section.gallery .container .grid_gallery .gallery_2:hover p.text, section.gallery .container .grid_gallery .gallery_3:hover p.text, section.gallery .container .grid_gallery .gallery_4:hover p.text, section.gallery .container .grid_gallery .gallery_5:hover p.text, section.gallery .container .grid_gallery .gallery_6:hover p.text, section.gallery .container .grid_gallery .gallery_7:hover p.text, section.gallery .container .grid_gallery .gallery_8:hover p.text, section.gallery .container .grid_gallery .gallery_9:hover p.text {
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  color: #fff;
+  font-weight: 700;
+  display: block;
+}
+/*# sourceMappingURL=gallery.css.map */
